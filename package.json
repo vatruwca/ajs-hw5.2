@@ -1,5 +1,5 @@
 {
-  "name": "ajs-hw5.1",
+  "name": "ajs-hw5.2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,14 +12,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vatruwca/ajs-hw5.1.git"
+    "url": "git+https://github.com/vatruwca/ajs-hw5.2.git"
   },
   "author": "vatruwca",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vatruwca/ajs-hw5.1/issues"
+    "url": "https://github.com/vatruwca/ajs-hw5.2/issues"
   },
-  "homepage": "https://github.com/vatruwca/ajs-hw5.1#readme",
+  "homepage": "https://github.com/vatruwca/ajs-hw5.2#readme",
   "devDependencies": {
     "@babel/cli": "^7.18.9",
     "@babel/core": "^7.18.9",
