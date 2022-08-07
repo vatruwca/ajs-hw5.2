@@ -12,10 +12,10 @@ test('checking object properties', () => {
     type: 'Bowman',
     health: 100,
     level: 1,
-    attack: 25,
-    defence: 25,
+    attack: undefined,
+    defence: undefined,
   };
-  const player = new Character('Anna', 'Bowman', 100, 1, 25, 25);
+  const player = new Character('Anna', 'Bowman', 100, 1, undefined, undefined);
   expect(player).toEqual(sample);
 });
 
@@ -118,7 +118,7 @@ test('testing the method levelUp() to increase the level indicators', () => {
     attack: 12,
     defence: 48,
   };
-  const player = new Character('Nastya', 'Magician', 100, 1, 10, 40);
+  const player = new Magician('Nastya', 'Magician', 100, 1, 10, 40);
   player.levelUp();
   expect(player).toEqual(sample);
 });
@@ -138,7 +138,7 @@ test('testing the method damage() affects the unit.', () => {
     attack: 40,
     defence: 10,
   };
-  const player = new Character('Fedor', 'Swordsman', 100, 1, 40, 10);
+  const player = new Swordsman('Fedor', 'Swordsman', 100, 1, 40, 10);
   player.damage(10);
   expect(player).toEqual(sample);
 });
